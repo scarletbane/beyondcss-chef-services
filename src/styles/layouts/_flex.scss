@@ -2,6 +2,19 @@
     display: flex;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
 .even-columns {
-    flex-grow: 1;
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
 }
