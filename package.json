@@ -5,8 +5,8 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "scss:watch": "sass --watch src/styles:dist/css",
-        "scss:build": "sass --no-source-map src/styles:dist/css",
+        "sass:watch": "sass --watch src/styles:dist/css",
+        "sass:build": "sass --no-source-map src/styles:dist/css",
         "preview": "vite preview",
         "lint:javascript": "eslint ./**/*.js",
         "lint:styles": "stylelint ./**/*.scss",
@@ -16,6 +16,7 @@
     "devDependencies": {
         "eslint": "^8.19.0",
         "eslint-config-prettier": "^8.5.0",
+        "pnpm": "^7.5.2",
         "prettier": "2.7.1",
         "sass": "^1.53.0",
         "stylelint": "^14.9.1",
