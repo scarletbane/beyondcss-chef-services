@@ -1,0 +1,6 @@
+@use '../abstracts/' as *;
+
+footer {
+    color: clr(neutral, 100);
+    background-color: clr(neutral, 900);
+}
