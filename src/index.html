@@ -15,8 +15,8 @@
     </head>
     <body>
         <header>
-            <div>
-                <div class="image">
+            <div class="flex flex-col align-center | text-center">
+                <div>
                     <img src="images/logo.png" alt="logo" />
                 </div>
                 <nav class="nav">
@@ -24,32 +24,34 @@
                     <a href="#" class="nav--link">Meals</a>
                     <a href="#" class="nav--link">Testimonials</a>
                 </nav>
-                <div class="hero">
-                    <h1 class="hero--title">
+                <div class="hero | margin-block-start-166">
+                    <h1 class="header">
                         Home cooked meals <br />
                         delivered straight to your door
                     </h1>
                 </div>
-                <div class="even-columns">
+                <div class="even-columns | gap-10">
                     <div class="button">Place Order</div>
-                    <div class="button">More Info</div>
+                    <div class="button" btn-type="outline">More Info</div>
                 </div>
             </div>
         </header>
         <main>
             <section class="about">
                 <div class="even-columns">
-                    <div class="">
+                    <div>
                         <img src="images/about.jpg" alt="meal" />
                     </div>
                     <div>
-                        <h2 class="heading">This is a nice big heading</h2>
+                        <h2 class="primary-heading" heading-type="primary">
+                            This is a nice big heading
+                        </h2>
                         <p class="subheading">
                             This is a subheading which mentions some interesting
                             things
                         </p>
                         <p class="info">
-                            <span class="lead">
+                            <span class="secondary-heading">
                                 This introduces the following text
                             </span>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -67,13 +69,15 @@
                 </div>
             </section>
             <section class="features">
-                <h2 class="heading">This is a nice big heading</h2>
+                <h2 class="primary-heading" heading-type="primary">
+                    This is a nice big heading
+                </h2>
                 <p class="subheading">
                     This is a subheading which mentions some interesting things
                 </p>
                 <div class="even-columns">
                     <div>
-                        <h3 class="subtitle">This is a subtitle</h3>
+                        <h3 class="secondary-heading">This is a subtitle</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aliquam egestas egestas dignissim. Quisque
@@ -81,7 +85,7 @@
                         </p>
                     </div>
                     <div>
-                        <h3 class="subtitle">This is a subtitle</h3>
+                        <h3 class="secondary-heading">This is a subtitle</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aliquam egestas egestas dignissim. Quisque
@@ -89,7 +93,7 @@
                         </p>
                     </div>
                     <div>
-                        <h3 class="subtitle">This is a subtitle</h3>
+                        <h3 class="secondary-heading">This is a subtitle</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aliquam egestas egestas dignissim. Quisque
@@ -97,7 +101,7 @@
                         </p>
                     </div>
                     <div>
-                        <h3 class="subtitle">This is a subtitle</h3>
+                        <h3 class="secondary-heading">This is a subtitle</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aliquam egestas egestas dignissim. Quisque
@@ -107,7 +111,7 @@
                 </div>
             </section>
             <section class="meals">
-                <h2 class="heading">This is a nice big heading</h2>
+                <h2 class="primary-heading">This is a nice big heading</h2>
                 <p class="subheading">
                     This is a subheading which mentions some interesting things
                 </p>
@@ -148,6 +152,9 @@
                 </div>
             </section>
             <section class="testimonials">
+                <h2 class="primary-heading" heading-type="primary">
+                    What our clients are saying about us
+                </h2>
                 <div class="even-columns">
                     <div class="card">
                         <img src="images/testimonial-01.jpg" alt="" />

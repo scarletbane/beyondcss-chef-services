@@ -44,7 +44,7 @@
             padding-block-end: $size-value;
         }
 
-        &-block#{$size-name} {
+        &-block-#{$size-name} {
             padding-block: $size-value;
         }
 
@@ -58,6 +58,12 @@
 
         &-inline-#{$size-name} {
             padding-inline: $size-value;
+        }
+    }
+
+    .gap {
+        &-#{$size-name} {
+            gap: $size-value;
         }
     }
 }

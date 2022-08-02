@@ -1,0 +1,38 @@
+@use '../abstracts/' as *;
+
+.header,
+.primary-heading {
+    font-family: $ff-abril;
+}
+
+.header {
+    font-size: fs(900);
+    line-height: 1.2;
+    color: clr(neutral, 100);
+    margin-bottom: size(47);
+}
+
+.primary-heading {
+    font-size: fs(800);
+    color: var(--fg, var(--clr-neutral-100));
+}
+
+[heading-type='primary'] {
+    --fg: var(--clr-primary-400);
+}
+
+.subheading {
+    font-size: fs(600);
+    text-transform: uppercase;
+}
+
+.secondary-heading {
+    font-size: fs(500);
+    color: clr(neutral, 900);
+    font-weight: $fw-700;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}

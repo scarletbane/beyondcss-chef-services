@@ -2,9 +2,14 @@
 
 @each $color, $shade-map in $colors {
     @each $shade, $value in $shade-map {
+        :root {
+            --clr-#{$color}-#{$shade}: #{$value};
+        }
+
         .clr-#{$color}-#{$shade} {
             color: $value;
         }
+
         .bg-#{$color}-#{$shade} {
             background-color: $value;
         }
