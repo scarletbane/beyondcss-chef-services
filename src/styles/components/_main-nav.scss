@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+
+.nav {
+    display: flex;
+    gap: size(47);
+    font-family: $ff-abril;
+
+    &--link {
+        text-decoration: none;
+        color: inherit;
+    }
+}
